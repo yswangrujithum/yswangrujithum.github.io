@@ -1,77 +1,41 @@
-/*
- First External CSS Stylesheet
- */
-
-/* Styling for HTML elements */
-body {
-  padding: 0;
-  margin: 0;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 18px;
-  line-height: 150%;
-  color: #333;
-  background: #efeee7;
-}
 
 header {
-  background: #333;
+    padding: 10px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #eee;
+    text-align: center;
+    background: #333;
+}
+body {
+    padding: 0;
+    margin:0;
+    font-family: Georgia, "Times New Roman", 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height:150%;
+    color: #333;
+    background: #efeee7;
 }
 
-h1 {
-  padding: 20px 0;
-  margin: 0;
-  margin-bottom: 20px;
-  font-size: 28px;
-  color: #eee;
-  text-align: center;
+#main-bio, #contact-info, #bio-image {
+    float: left;
 }
-
-h2 {
-  font-size: 24px;
+#figure{
+    position: relative
 }
-
-a {
-  color: #d21034;
+#bio-name{
+    position: absolute;
+    top: 150px;
+    left: 30px;
 }
-
-/* Selecting elements by class */
-.container {
-  width: 1024px;
-  /*width: 100%;*/
-  /*margin: 0px 10%;*/
-  margin: 0 auto;
+#bio-image{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
 }
-
-/* Selecting elements by ID */
-#main-bio,#contact-info,
-#bio-image {
-  float: left;
-}
-
-/*#contact-info {
-  float: right;
-}
-*/
-#figure {
-  position: relative;
-}
-
-#bio-name {
-  position: absolute;
-  top: 150px;
-  left: 30px;
-}
-
-#main-bio {
-  width: 70%;
-}
-
-#contact-info {
-  width: 30%;
-}
-
-#bio-image {
-  width: 200px;
-  height: 200px;
-  margin-right: 20px;
+#contact-info{
+    width:30%;
+  
 }
